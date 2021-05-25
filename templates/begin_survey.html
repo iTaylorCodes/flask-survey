@@ -4,6 +4,8 @@
 
 <p>{{survey.instructions}}</p>
 
-<a href="/questions/0"><button>Begin Survey</button></a>
+<form action="/begin" method="POST">
+	<button>Begin Survey</button>
+</form>
 
 {% endblock %}
